@@ -9,7 +9,6 @@ This project is a Flask-based web application for stock price prediction using a
 ## 🎥 Video Demo
 
 Here is the link for the video demo of the Stock Price Prediction Web Application:
-
 https://drive.google.com/file/d/1N8IUqkI2K__fFkursc_7HF95IYVWcYxp/view?usp=sharing
 
 In this video, you will see how the app works, including:
