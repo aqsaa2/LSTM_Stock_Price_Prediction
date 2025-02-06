@@ -18,8 +18,6 @@ In this video, you will see how the app works, including:
 - Downloading the dataset.
 - Understanding the user interface.
 
-You can upload the video to platforms like YouTube or Vimeo and replace the `your-video-id-here` with the actual video ID from the platform.
-
 ---
 
 ## 🚀 Features
