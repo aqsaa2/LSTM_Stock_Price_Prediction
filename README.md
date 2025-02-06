@@ -64,19 +64,19 @@ cd <project_directory>
 pip install -r requirements.txt
  ```
 
-Running the Application
+## 🏃‍♂️ Running the Application
 
-Run the Flask application:
+1. Run the Flask application:
 
 ```bash
 
 python app.py
 ```
 
-Open your browser and navigate to http://127.0.0.1:5000/ to access the web application.
+2. Open your browser and navigate to http://127.0.0.1:5000/ to access the web application.
 
 
-Usage
+## ⚙️ Usage
 
 Enter the stock ticker symbol (e.g., OGDC.KA) in the input field and click "Predict".
 
@@ -87,7 +87,7 @@ Visualizations of the stock's closing price with EMA trends.
 Predicted vs. original stock price trends.
 You can download the dataset as a CSV file by clicking the "Download Dataset" button.
 
-Requirements
+## 🧰 Requirements
 
 The requirements.txt file should contain the following Python packages (example):
 
