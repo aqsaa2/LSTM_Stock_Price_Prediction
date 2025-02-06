@@ -49,25 +49,35 @@ In this video, you will see how the app works, including:
    ```bash
    git clone https://github.com/your-username/Stock-Price-Prediction-WebApp.git
    cd Stock-Price-Prediction-WebApp
+   ```
 
 2. Navigate to the project directory:
 
 
  ```bash
 cd <project_directory>
+ ```
 
 3. Install the required dependencies:
 
  ```bash
 pip install -r requirements.txt
+ ```
+
 Running the Application
+
 Run the Flask application:
 
 ```bash
 
 python app.py
+```
+
 Open your browser and navigate to http://127.0.0.1:5000/ to access the web application.
+
+
 Usage
+
 Enter the stock ticker symbol (e.g., OGDC.KA) in the input field and click "Predict".
 
 The application will fetch historical data, generate predictions, and display:
@@ -78,12 +88,15 @@ Predicted vs. original stock price trends.
 You can download the dataset as a CSV file by clicking the "Download Dataset" button.
 
 Requirements
+
 The requirements.txt file should contain the following Python packages (example):
 
+ ```bash
 Flask
 pandas
 numpy
 scikit-learn
 yfinance  # Or another data source library
 matplotlib
+ ```
 
