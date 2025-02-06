@@ -6,6 +6,22 @@ This project is a Flask-based web application for stock price prediction using a
 
 ---
 
+## 🎥 Video Demo
+
+Check out the video demo of the Stock Price Prediction Web Application:
+
+[![Video Demo]https://drive.google.com/file/d/1N8IUqkI2K__fFkursc_7HF95IYVWcYxp/view?usp=sharing.
+
+In this video, you will see how the app works, including:
+- Fetching historical stock data.
+- Visualizing stock price predictions with EMA trends.
+- Downloading the dataset.
+- Understanding the user interface.
+
+You can upload the video to platforms like YouTube or Vimeo and replace the `your-video-id-here` with the actual video ID from the platform.
+
+---
+
 ## 🚀 Features
 
 - Predict stock prices based on historical data.
@@ -35,3 +51,41 @@ This project is a Flask-based web application for stock price prediction using a
    ```bash
    git clone https://github.com/your-username/Stock-Price-Prediction-WebApp.git
    cd Stock-Price-Prediction-WebApp
+
+2. Navigate to the project directory:
+
+
+ ```bash
+cd <project_directory>
+
+3. Install the required dependencies:
+
+ ```bash
+pip install -r requirements.txt
+Running the Application
+Run the Flask application:
+
+```bash
+
+python app.py
+Open your browser and navigate to http://127.0.0.1:5000/ to access the web application.
+Usage
+Enter the stock ticker symbol (e.g., OGDC.KA) in the input field and click "Predict".
+
+The application will fetch historical data, generate predictions, and display:
+
+Descriptive statistics of the stock data.
+Visualizations of the stock's closing price with EMA trends.
+Predicted vs. original stock price trends.
+You can download the dataset as a CSV file by clicking the "Download Dataset" button.
+
+Requirements
+The requirements.txt file should contain the following Python packages (example):
+
+Flask
+pandas
+numpy
+scikit-learn
+yfinance  # Or another data source library
+matplotlib
+
